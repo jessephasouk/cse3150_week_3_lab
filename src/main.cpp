@@ -61,6 +61,8 @@ int main(int argc, char* argv[]) {
         }
     }
 
-    // TODO: Free memory!
-    return 0;
+    // TODO: Free memory!'
+    	delete labels;
+    	delete values;
+    	return 0;
 }
